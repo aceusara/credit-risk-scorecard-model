@@ -1,8 +1,3 @@
-All three load cleanly. The production modules are wired up correctly.
-
-Now let's update the README and get you to your break. Open `README.md` and replace the entire contents with this:
-
-```markdown
 # Credit Risk PD Model
 
 End-to-end **Probability of Default (PD)** modelling pipeline built on the
@@ -217,4 +212,3 @@ This project follows SR 11-7 model risk management principles.
 | Monitoring dashboard | ⏳ Planned |
 | FastAPI serving endpoint | ⏳ Planned |
 | Governance documents | ⏳ Planned |
-```
