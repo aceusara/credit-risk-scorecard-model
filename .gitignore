@@ -1,0 +1,38 @@
+# Data — never commit raw data to GitHub
+data/
+*.csv
+*.parquet
+*.feather
+*.xls
+*.xlsx
+
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+htmlcov/
+.coverage
+
+# Notebooks — strip outputs before committing
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.key
+kaggle.json
+
+# pyenv
+.python-version
+
+# OS
+.DS_Store
+Thumbs.db
